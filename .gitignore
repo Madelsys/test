@@ -1,0 +1,100 @@
+# ───────────────
+# BUILD / OUTPUT
+# ───────────────
+dist/
+build/
+node_modules/
+coverage/
+.nyc_output/
+temp/
+.tmp/
+
+# ───────────────
+# LOGS
+# ───────────────
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ───────────────
+# OS
+# ───────────────
+.DS_Store
+
+# ───────────────
+# IDEs / EDITORES
+# ───────────────
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# VSCode (ignora todo menos configuraciones útiles)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ───────────────
+# ENVIRONMENT
+# ───────────────
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# ───────────────
+# RUNTIME DATA
+# ───────────────
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# PM2 (si lo usás para correr Node)
+.pm2/logs/
+
+# ───────────────
+# DIAGNÓSTICOS
+# ───────────────
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# ───────────────
+# TYPESCRIPT / LINT CACHE
+# ───────────────
+*.tsbuildinfo
+.eslintcache
+
+# ───────────────
+# FRAMEWORKS / TOOLS
+# ───────────────
+.parcel-cache/
+.turbo/
+.next/
+.nuxt/
+.svelte-kit/
+.vercel/
+.netlify/
+.firebase/
+.expo/
+.angular/
+
+# ───────────────
+# DOCKER
+# ───────────────
+docker-compose.override.yml
+
+# ───────────────
+# MISC
+# ───────────────
+node_repl_history
+npm/
